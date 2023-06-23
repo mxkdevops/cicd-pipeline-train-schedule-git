@@ -35,3 +35,14 @@ if you are working with source code that already exist in a remote repositry , f
 git clone <repository url>
 git clone git@github.com:mxkdevops/cicd-pipeline-train-schedule-git.git
 ```
+The add commad stages changed files for the next commit . This allows you to control which files are commited and which are not 
+```
+git add <file>
+```
+Before you can commit a change to a file , you need to add the file to staging area . use 'git status' to see which changed files have and have not been adde. to add all files that have been changed use :
+```git add.
+```
+or 
+```
+git add -A
+```
