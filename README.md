@@ -54,3 +54,14 @@ git commit -m "<messages describing the change >"
 Few notes to commit :
 * Commit only adds the changes to your local copy of the repository . It does not push them to any remote repository . such as GitHub
 * Commit will only commit the changes that were staged using `git add `
+
+By default push will push the changes to a remote repository assocaited with the current local brunch. if you clone the branch from an exisiting remote repository , this relationship is already set up for you .
+```
+git push -u "<remote name , usually origin>"<branch anme>
+```
+Edit the view -index file change the header text 
+```
+git status
+git add .
+git status
+git commit -m "Header text changes"
