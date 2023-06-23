@@ -16,3 +16,9 @@ Once it is running, you can access it in a browser at [http://localhost:3000](ht
 
 # Steps need to know 
 clone , add , commit , push , Branch , merge , pull request
+
+$git --version
+
+After installation configure your name and email
+git config --global user.name "<your name>"
+git config --global user.email "<your email>"
