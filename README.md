@@ -22,3 +22,9 @@ clone , add , commit , push , Branch , merge , pull request
 After installation configure your name and email
    ###git config --global user.name "<your name>"
    ##git config --global user.email "<your email>"
+some basic Git commands are : 
+```
+git --version
+git status
+git commit
+```
