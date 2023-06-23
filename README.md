@@ -47,4 +47,10 @@ or
 ```
 git add -A
 ```
-Commit adds your changes to your local repository and makes them part of the repository change history 
+`Commit adds` your changes to your local repository and makes them part of the repository change history. when you are satisfied witha change or set of changes that you have made to the files , you are ready to commit them :
+```
+git commit -m "<messages describing the change >"
+```
+Few notes to commit :
+-Commit only adds the changes to your local copy of the repository . It does not push them to any remote repository . such as GitHub
+* Commit will only commit the changes that were staged using `git add `
