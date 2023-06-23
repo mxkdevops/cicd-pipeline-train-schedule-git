@@ -16,6 +16,12 @@ Once it is running, you can access it in a browser at [http://localhost:3000](ht
 
 # Steps need to know 
 clone , add , commit , push , Branch , merge , pull request
+
+Install git 
+```
+sudo yum -y install git
+```
+
 ```
    git --version
 ```
@@ -65,3 +71,26 @@ git status
 git add .
 git status
 git commit -m "Header text changes"
+```
+Now push changes to remote repositry 
+```
+git push
+```
+Git pull commmand merge their change other team review the change  
+```
+git pull
+```
+Git checkout command check the branch and create a new branch if i use -b 
+```
+git checkout -b new-branch name
+git checkout -b new-branch
+```
+Now if you go back to master branch 
+```
+git checkout master
+```
+Create tag 
+```
+git tag myTag
+```
+
