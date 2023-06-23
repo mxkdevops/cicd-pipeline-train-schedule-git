@@ -39,7 +39,7 @@ The add commad stages changed files for the next commit . This allows you to con
 ```
 git add <file>
 ```
-Before you can commit a change to a file , you need to add the file to staging area . use 'git status' to see which changed files have and have not been adde. to add all files that have been changed use :
+Before you can commit a change to a file , you need to add the file to staging area . use `git status` to see which changed files have and have not been adde. to add all files that have been changed use :
 ```
 git add.
 ```
@@ -47,3 +47,4 @@ or
 ```
 git add -A
 ```
+Commit adds your changes to your local repository and makes them part of the repository change history 
