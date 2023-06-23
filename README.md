@@ -16,9 +16,52 @@ Once it is running, you can access it in a browser at [http://localhost:3000](ht
 
 # Steps need to know 
 clone , add , commit , push , Branch , merge , pull request
-
+```
    git --version
+```
+# After installation configure your name and email
+```
+git config --global user.name "<your name>"
+git config --global user.email "<your email>"
+```
+some basic Git commands are : 
+```
+git --version
+git status
+git commit
+```
+if you are working with source code that already exist in a remote repositry , first thing you need is do is geta copy of the rpository so that you can work with the files locally .
+```
+git clone <repository url>
+git clone git@github.com:mxkdevops/cicd-pipeline-train-schedule-git.git
+```
+The add commad stages changed files for the next commit . This allows you to control which files are commited and which are not 
+```
+git add <file>
+```
+Before you can commit a change to a file , you need to add the file to staging area . use `git status` to see which changed files have and have not been adde. to add all files that have been changed use :
+```
+git add.
+```
+or 
+```
+git add -A
+```
+`Commit adds` your changes to your local repository and makes them part of the repository change history. when you are satisfied witha change or set of changes that you have made to the files , you are ready to commit them :
+```
+git commit -m "<messages describing the change >"
+```
+Few notes to commit :
+* Commit only adds the changes to your local copy of the repository . It does not push them to any remote repository . such as GitHub
+* Commit will only commit the changes that were staged using `git add `
 
-After installation configure your name and email
-   git config --global user.name "<your name>"
-   git config --global user.email "<your email>"
+By default push will push the changes to a remote repository assocaited with the current local brunch. if you clone the branch from an exisiting remote repository , this relationship is already set up for you .
+```
+git push -u "<remote name , usually origin>"<branch anme>
+```
+Edit the view -index file change the header text 
+```
+git status
+git add .
+git status
+git commit -m "Header text changes"
