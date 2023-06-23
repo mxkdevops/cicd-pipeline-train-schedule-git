@@ -52,5 +52,5 @@ git add -A
 git commit -m "<messages describing the change >"
 ```
 Few notes to commit :
--Commit only adds the changes to your local copy of the repository . It does not push them to any remote repository . such as GitHub
+* Commit only adds the changes to your local copy of the repository . It does not push them to any remote repository . such as GitHub
 * Commit will only commit the changes that were staged using `git add `
