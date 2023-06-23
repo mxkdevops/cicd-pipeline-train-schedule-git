@@ -30,3 +30,8 @@ git --version
 git status
 git commit
 ```
+if you are working with source code that already exist in a remote repositry , first thing you need is do is geta copy of the rpository so that you can work with the files locally .
+```
+git clone <repository url>
+git clone git@github.com:mxkdevops/cicd-pipeline-train-schedule-git.git
+```
